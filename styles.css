@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#target-container {
+    position: relative;
+    width: 60%;
+    height: 60vh;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#target {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#controls {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f2f2f2; /* Lighter gray background color */
+    padding: 10px;
+    border: 2px solid #cccccc; /* Adjusted border color */
+    border-radius: 5px;
+}
+
+.slider-container,
+#button-container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* ... (previous styles) */
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 12px; /* Adjusted to make it more rounded */
+    height: 15px; /* Adjusted height */
+    border: 3px solid #3498db; /* Slightly larger blue border */
+}
+
+/* ... (remaining styles) */
+
+
+#randomize {
+    background-color: #3498db; /* Reverted to blue color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#randomize:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* ... (previous styles) */
+
+#stop-timer,
+#adjust-timer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#stop-timer:hover,
+#adjust-timer:hover {
+    background-color: #2980b9;
+}
+
+.styled-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.styled-button:hover {
+    background-color: #2980b9;
+}

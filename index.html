@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap">
+    <title>Target Practice</title>
+</head>
+<body>
+    <div id="target-container">
+        <div id="target"></div>
+    </div>
+    <div id="controls">
+        <div class="slider-container">
+            <label for="target-size">Target Size:</label>
+            <input type="range" id="target-size" min="10" max="100" value="50">
+            <span id="slider-value">50</span>
+        </div>
+        <div id="button-container">
+            <button id="randomize" class="styled-button">Randomize</button>
+            <button id="add-point" class="styled-button">Add Point</button>
+            <button id="subtract-point" class="styled-button">Subtract Point</button>
+            <button id="reset-game" class="styled-button">Reset Game</button>
+            <button id="stop-timer" class="styled-button">Stop Timer</button>
+            <button id="start-timer" class="styled-button">Start Timer</button>
+            <button id="adjust-timer" class="styled-button">Adjust Timer</button>
+        </div>
+        <div id="score-container">
+            Score: <span id="score">0</span>
+        </div>
+        <div id="timer-container">
+            Time: <span id="timer">60</span> seconds
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
